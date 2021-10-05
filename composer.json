@@ -72,7 +72,19 @@
         "symfony-bin-dir": "bin",
         "symfony-assets-install": "relative",
         "incenteev-parameters": {
-            "file": "app/config/parameters.yml"
+            "file": "app/config/parameters.yml",
+            "env-map": {
+                "database_host": "DATABASE_HOST",
+                "database_port": "DATABASE_PORT",
+                "database_name": "DATABASE_NAME",
+                "database_user": "DATABASE_USER",
+                "database_password": "DATABASE_PASSWORD",
+                "secret": "SECRET",
+                "email_sender_address": "EMAIL_SENDER_ADDRESS",
+                "email_sender_name": "EMAIL_SENDER_NAME",
+                "website_name": "WEBSITE_NAME",
+                "website_url": "WEBSITE_URL"
+            }
         }
     }
 }
